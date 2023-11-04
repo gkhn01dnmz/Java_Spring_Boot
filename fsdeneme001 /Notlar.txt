@@ -1,0 +1,4 @@
+Request ve response için tek tek class değil de  generic class  oluşturmaya çalış.
+
+
+

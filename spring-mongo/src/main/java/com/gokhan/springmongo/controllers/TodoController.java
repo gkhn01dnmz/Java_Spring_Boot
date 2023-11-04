@@ -1,8 +1,8 @@
 package com.gokhan.springmongo.controllers;
 
-import java.util.Date;
+
 import java.util.List;
-import java.util.Optional;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.gokhan.springmongo.exception.TodoCollectionException;
 import com.gokhan.springmongo.models.TodoDTO;
-import com.gokhan.springmongo.repos.TodoRepository;
+
 import com.gokhan.springmongo.service.TodoService;
 
 import jakarta.validation.ConstraintViolationException;
@@ -28,8 +28,6 @@ import jakarta.validation.ConstraintViolationException;
 public class TodoController {
     
 
-    @Autowired
-    private TodoRepository repository;
 
     @Autowired
     private TodoService todoService;

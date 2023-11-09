@@ -50,6 +50,5 @@ public class Address {
         HOME_ADDRESS,
         WORKER_ADDRESS,
         OTHER
-
     }
 }

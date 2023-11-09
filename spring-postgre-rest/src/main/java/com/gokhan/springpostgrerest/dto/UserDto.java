@@ -1,5 +1,6 @@
 package com.gokhan.springpostgrerest.dto;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import com.gokhan.springpostgrerest.entities.Address;
@@ -22,5 +23,5 @@ public class UserDto {
     private String surname;
 
 
-    List<String> addresses;
+    private List<String> addresses;
 }

@@ -1,0 +1,2 @@
+serilizable nedir bakılabilir,
+Frontend ile rabbitmq konuşturulabilir.

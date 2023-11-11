@@ -1,0 +1,8 @@
+AOP dependencies eklenmeli
+
+		<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-aop</artifactId>
+    	</dependency>
+
+		executaion kısmında * dan sonra boşluk olmalı
